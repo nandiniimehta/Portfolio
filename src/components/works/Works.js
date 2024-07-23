@@ -20,7 +20,7 @@ const Works = () => {
                             ))}
                         </div>
                         <div className='projectLinks'>
-                            <a href={project.link} className='projectLink'><FaLink /> Live Demo</a>
+                            //<a href={project.link} className='projectLink'><FaLink /> Live Demo</a>
                             <a href={project.github} className='projectLink'><FaGithub /> GitHub</a>
                         </div>
                     </div>
