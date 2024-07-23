@@ -1,0 +1,101 @@
+#works {
+    padding: 2rem;
+    text-align: center;
+}
+
+.workstitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.workDesc {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.worksGrid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.workCard {
+    border: 1px solid transparent;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    background-color: rgb(50, 50, 50);
+}
+
+.workCard:hover {
+    transform: scale(1.05);
+}
+
+.projectIcon {
+    font-size: 2rem;
+    color: cyan;
+    margin-bottom: 1rem;
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.projectDesc {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+.tech {
+    background-color: cyan;
+    color: black;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.projectLinks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.projectLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.projectLink:hover {
+    text-decoration: underline;
+}
+
+.workBtn {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: cyan;
+    color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.workBtn:hover {
+    background-color: #0056b3;
+}

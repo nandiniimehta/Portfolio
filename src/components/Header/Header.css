@@ -1,0 +1,75 @@
+#intro {
+    height: calc(70vh-4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 80vh;
+    width: 230vh;
+}
+
+.introContent {
+    height: 78vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: cyan;
+}
+
+.introPar {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    max-width: 60rem;
+}
+
+.btn {
+    border: 1.8px solid;
+    margin: 0.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    width: 10%;
+    border-radius: 20px;
+    color:black ;
+    cursor: pointer;
+    padding: 0 20px;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.6s ease-in-out;
+    background: white;
+}
+
+.btn:hover{
+    background: rgb(231, 224, 224);
+}
+
+    @media screen and (max-width:840px) {
+        .bg {
+            right: -20vw;
+            /* left: -5vw; */
+        }
+    }
