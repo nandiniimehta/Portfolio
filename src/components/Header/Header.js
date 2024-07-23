@@ -12,8 +12,8 @@ const Header = () => {
                 <span className='hello'>Hello,</span>
                 <span className='introText'>I'm <span className='introName'>{HeaderData.name}</span><br />{HeaderData.roles[0]}</span>
                 <p className='introPar'>{HeaderData.description}</p>
-                <a href={HeaderData.resume} target="_blank" rel="noopener noreferrer">
-                    <button className="btn">Resume</button>
+                <a href={`${process.env.PUBLIC_URL}/NandiniResume.pdf`} download="NandiniResume.pdf" >
+                <button className="btn">Resume</button>
                 </a>
             </div>
             <img src={bg} alt='' className='bg' />
