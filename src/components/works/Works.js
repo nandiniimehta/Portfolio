@@ -19,8 +19,7 @@ const Works = () => {
                                 <span className='tech' key={idx}>{tech}</span>
                             ))}
                         </div>
-                        <div className='projectLinks'>
-                            //<a href={project.link} className='projectLink'><FaLink /> Live Demo</a>
+                        <div className='projectLinks'>                           
                             <a href={project.github} className='projectLink'><FaGithub /> GitHub</a>
                         </div>
                     </div>
