@@ -13,7 +13,7 @@ export const SkillData =
 {
     title1: "Programming Languages",
     skills1: [
-        "HTML, CSS, JAVASCRIPT, PYTHON, REACTJS, PHP, JAVA, LARAVEL",
+        "HTML, CSS, JAVASCRIPT, PYTHON, REACTJS, PHP, LARAVEL",
     ],
     title2: "Database",
     skills2: [
