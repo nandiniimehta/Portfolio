@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import './Contact.css';
-import emailjs from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    const form = useRef();
+   // const form = useRef();
     
-    const sendEmail = (e) => {
+    /*const sendEmail = (e) => {
         e.preventDefault();
         console.log("Form submission started"); // Debug log
 
@@ -15,13 +15,13 @@ const Contact = () => {
         }, (error) => {
             console.log("Email sending error:", error.text);
         });
-    };
+    };*/
 
     return (
         <section id='contactPage'>
             <h2 className='contactPageTitle'>Contact Us</h2>
             <span className='contactDesc'>Contact me from here.</span>
-            <form className='contForm' ref={form} onSubmit={sendEmail}>
+            <form className='contForm'>
                 <input type='text' className='name' placeholder='Your Name' name='from_name' required />
                 <input type='email' className='email' placeholder='Your Email' name='from_email' required />
                 <textarea name='message' rows='5' className='msg' placeholder='Your Message' required />
